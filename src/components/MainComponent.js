@@ -22,8 +22,8 @@ function MainComponent() {
 
   useEffect(() => {
     let finalArr = [];
-    const orignalRes = [...response];
     if (response) {
+      const orignalRes = [...response];
       const listOfData = response
         .map((el) => el.name.toLowerCase().includes(value))
         .map((ele, ind) =>
@@ -32,9 +32,6 @@ function MainComponent() {
     }
 
     setResponse(finalArr);
-    if (!value || value === "") {
-      setResponse(orignalRes);
-    }
   }, [value]);
 
   return (
@@ -62,4 +59,3 @@ function MainComponent() {
 }
 
 export default MainComponent;
-
