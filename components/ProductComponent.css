@@ -1,0 +1,53 @@
+.ProductMain {
+  padding: 2rem;
+}
+
+.VegImage {
+  width: 2rem;
+}
+
+.ProductName {
+  font-size: 3rem;
+}
+
+.VegImage img {
+  height: auto;
+  width: 100%;
+}
+
+.ProductImage {
+  text-align: center;
+}
+
+.ImageContainer {
+  width: 80%;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.BurgerImage {
+  width: 100%;
+  height: auto;
+}
+
+.BurgerButtonText {
+  position: relative;
+  bottom: 3rem;
+}
+
+.AddButton {
+  padding: 2rem 4rem;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 2rem;
+  color: green;
+  border-radius: 20px;
+  background: #fff;
+  font-weight: 700;
+}
+
+.BottomText {
+  color: #ccc;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
