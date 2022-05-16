@@ -63,4 +63,3 @@ function MainComponent() {
 
 export default MainComponent;
 
-// rahul.arora1@swiggy.in
